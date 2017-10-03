@@ -21,5 +21,11 @@
         <!-- TODO (14) Declare WaterReminderIntentService in the Manifest and set the exported
          attribute to false-->
 
+        <!--.sync.WaterReminderIntentService secara otomatis muncul sebagai hint-->
+
+        <service android:name=".sync.WaterReminderIntentService"
+            android:exported="false"/>
+
+
     </application>
 </manifest>
